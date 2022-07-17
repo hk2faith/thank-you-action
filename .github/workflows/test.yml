@@ -8,7 +8,7 @@ jobs:
   thanks:
     runs-on: ubuntu-latest
     steps:
-      - uses: colbyfayock/thank-you-action@master
+      - uses: colbyfayock/thank-you-action@main
         with:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           TENOR_TOKEN: ${{secrets.TENOR_TOKEN}}
